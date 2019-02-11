@@ -4,6 +4,10 @@ import com.example.blablacartest.data.model.Client
 import com.example.blablacartest.domain.BlablacarInteractor
 
 class BlablaCarController(val interactor: BlablacarInteractor) : Controller {
+    override fun getTrips() {
+        interactor.search("Paris","Rennes")
+    }
+
     override fun getToken() {
         interactor.getToken(     Client(
             "client_credentials",

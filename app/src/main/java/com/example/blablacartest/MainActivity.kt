@@ -16,5 +16,8 @@ class MainActivity : AppCompatActivity() {
         test.setOnClickListener {
             module.controller.getToken()
         }
+        testSearch.setOnClickListener {
+            module.controller.getTrips()
+        }
     }
 }

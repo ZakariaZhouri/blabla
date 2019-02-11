@@ -1,16 +1,17 @@
 package com.example.blablacartest.data
 
 import android.content.Context
-import android.util.Log
 import com.example.blablacartest.data.api.BlablaApi
 import com.example.blablacartest.data.model.Client
 import com.example.blablacartest.data.model.ClientOutput
-import com.example.blablacartest.data.model.Trips
+import com.example.blablacartest.data.model.DataModel
 import com.example.blablacartest.domain.Repository
 import retrofit2.*
 import retrofit2.converter.gson.GsonConverterFactory
-import java.util.*
 import kotlin.collections.LinkedHashMap
+import com.google.gson.GsonBuilder
+import org.json.JSONObject
+
 
 class BlablacarRepository(context: Context) : Repository {
     val sharedPreferencesPersistence = SharedPreferencesPersistence(context)
@@ -29,6 +30,7 @@ class BlablacarRepository(context: Context) : Repository {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
         val service = retrofit.create<BlablaApi>()
+
         return service.getClientToken(client)
     }
 
@@ -36,13 +38,17 @@ class BlablacarRepository(context: Context) : Repository {
         sharedPreferencesPersistence.putString(TOKEN_KEY, token)
     }
 
-    override fun search(departure: String, arrival: String): Call<Trips> {
+    override fun search(departure: String, arrival: String): Call<DataModel> {
+        val gson = GsonBuilder()
+            .setLenient()
+            .create()
         val headers = buildHeaders()
         val retrofit = Retrofit.Builder()
             .baseUrl("https://edge.blablacar.com")
-            .addConverterFactory(GsonConverterFactory.create())
+            .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
         val service = retrofit.create<BlablaApi>()
+
         return service.getTrips(headers, RESPONSE_FORMAT, RESPONSE_LOCALE, RESPONSE_MONEY_LOCALE, departure, arrival)
     }
 
@@ -50,7 +56,6 @@ class BlablacarRepository(context: Context) : Repository {
         val token = sharedPreferencesPersistence.getString(TOKEN_KEY)
         val headers = LinkedHashMap<String, String>()
         headers.put("Accept", "application/json")
-        headers.put("Accept-Encoding", "gzip")
         headers.put("Accept-Language", "fr")
         headers.put("Application-Client", "Android")
         headers.put("Application-Version", "5.20.0-debug-33fbb08d3")

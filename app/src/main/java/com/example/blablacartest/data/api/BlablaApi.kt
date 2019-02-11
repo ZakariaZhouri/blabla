@@ -2,7 +2,8 @@ package com.example.blablacartest.data.api
 
 import com.example.blablacartest.data.model.Client
 import com.example.blablacartest.data.model.ClientOutput
-import com.example.blablacartest.data.model.Trips
+import com.example.blablacartest.data.model.DataModel
+import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -18,5 +19,5 @@ interface BlablaApi {
         @Query("cur") cur: String,
         @Query("fn") departure: String,
         @Query("tn") arrival: String
-    ): Call<Trips>
+    ): Call<DataModel>
 }
