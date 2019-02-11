@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 
 data class Trips(
-    @SerializedName("sorting_algorithm") val links: String?
+    @SerializedName("trips") val trip: List<Trip>
 )
 
 data class Links(
