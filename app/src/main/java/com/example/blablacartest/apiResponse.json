@@ -1,0 +1,1621 @@
+{
+  "links": {
+    "_self": "https://api.blablacar.fr/api/v2/trips?_locale=fr_FR",
+    "_front": "https://www.blablacar.fr/search?fn=Paris&tn=Rennes"
+  },
+  "pager": {
+    "page": 1,
+    "pages": 73,
+    "total": 726,
+    "limit": 10
+  },
+  "trips": [
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1421038650-issy-les-moulineaux-rennes?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1421038650-issy-les-moulineaux-rennes/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/34965200-38bb-11de-a000-00000d55a4fa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/8uXw2975AlKtiRgITtijzw?_locale=fr_FR"
+        },
+        "display_name": "Bernard",
+        "gender": "_UE_M",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/WJ5p4ZJpTlKu1JX7iS3fcw/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_NO",
+        "music": "_UE_YES",
+        "encrypted_id": "8uXw2975AlKtiRgITtijzw",
+        "pets": "_UE_YES",
+        "dialog": "_UE_YES",
+        "age": 46,
+        "rating": 4.6,
+        "rating_count": 237,
+        "grade": 4,
+        "phone_hidden": false,
+        "id_checked": "VALID",
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "34965200-38bb-11de-a000-00000d55a4fa"
+      },
+      "departure_date": "11/02/2019 19:00:00",
+      "departure_place": {
+        "city_name": "Issy-les-Moulineaux",
+        "address": "Bédée",
+        "latitude": 48.824512,
+        "longitude": 2.27371,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Rennes, Porte des Longchamps",
+        "latitude": 48.117266,
+        "longitude": -1.677793,
+        "country_code": "FR"
+      },
+      "price": {
+        "value": 23,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "23 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 27.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "27,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 23,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "23 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 4.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "4,50 €"
+      },
+      "seats_left": 2,
+      "seats": 3,
+      "duration": {
+        "value": 15600,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 366,
+        "unity": "km"
+      },
+      "permanent_id": "1421038650-issy-les-moulineaux-rennes",
+      "car": {
+        "id": "29870228",
+        "model": "SCUDO",
+        "make": "FIAT",
+        "comfort": "normal",
+        "comfort_nb_star": 2,
+        "category": "CATEGORY_BIG_UTILITY"
+      },
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1421038650-issy-les-moulineaux-rennes"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": false,
+      "freeway": true,
+      "answer_delay": 0,
+      "booking_mode": "auto",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Issy-les-Moulineaux",
+        "Rennes",
+        "Bédée"
+      ],
+      "departure_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 6764,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "CLOSE",
+        "routes": [
+          {
+            "distance_in_meters": 0,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "PLANNED",
+      "trip_details_id": "Cg4KCjE0MjEwMzg2NTAQARILCAISB3UwOXRnOHAaCwgCEgdnYndjOXo2",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1417611667-paris-rennes?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1417611667-paris-rennes/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/b52d6800-625a-11e7-a000-00000212ecfa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/DxOFamnTOSs5otcAAbgrWA?_locale=fr_FR"
+        },
+        "display_name": "François",
+        "gender": "_UE_M",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/7kYwA-r2R9eoPg3KCnyiBA/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_NO",
+        "music": "_UE_YES",
+        "encrypted_id": "DxOFamnTOSs5otcAAbgrWA",
+        "pets": "_UE_YES",
+        "dialog": "_UE_YES",
+        "age": 68,
+        "rating": 4.6,
+        "rating_count": 64,
+        "grade": 4,
+        "phone_hidden": false,
+        "id_checked": "VALID",
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "b52d6800-625a-11e7-a000-00000212ecfa"
+      },
+      "departure_date": "11/02/2019 21:40:00",
+      "departure_place": {
+        "city_name": "Paris",
+        "address": "Paris Expo Porte de Versailles, Place de la Porte de Versailles, Paris, France",
+        "latitude": 48.832679,
+        "longitude": 2.286644,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Villejean Beauregard, Rennes, France",
+        "latitude": 48.132149,
+        "longitude": -1.713818,
+        "country_code": "FR"
+      },
+      "price": {
+        "value": 22,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "22 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 26.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "26,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 22,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "22 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 4.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "4,50 €"
+      },
+      "seats_left": 1,
+      "seats": 2,
+      "duration": {
+        "value": 13200,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 351,
+        "unity": "km"
+      },
+      "permanent_id": "1417611667-paris-rennes",
+      "car": {
+        "id": "106749100",
+        "model": "Pulsar",
+        "make": "NISSAN",
+        "comfort": "normal",
+        "comfort_nb_star": 2,
+        "category": "CATEGORY_BERLINE"
+      },
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1417611667-paris-rennes"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": true,
+      "freeway": true,
+      "answer_delay": 3,
+      "booking_mode": "manual",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Thionville",
+        "Paris",
+        "Rennes",
+        "Bégard"
+      ],
+      "departure_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 5487,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 3145,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "PLANNED",
+      "trip_details_id": "Cg4KCjE0MTc2MTE2NjcQARILCAISB3UwOXR1MTkaCwgCEgdnYndjYzQw",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1421712834-paris-rennes?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1421712834-paris-rennes/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/98f3e200-eb29-11de-a000-000017b5f4fa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/edWj-w_7VdGVhKllWgj34w?_locale=fr_FR"
+        },
+        "display_name": "Régis",
+        "gender": "_UE_M",
+        "picture": "https://cdn.blablacar.com/comuto3/images/avatar/passenger-m.png",
+        "has_picture": false,
+        "smoking": "_UE_MAYBE",
+        "music": "_UE_MAYBE",
+        "encrypted_id": "edWj-w_7VdGVhKllWgj34w",
+        "pets": "_UE_MAYBE",
+        "dialog": "_UE_MAYBE",
+        "age": 31,
+        "rating": 0,
+        "rating_count": 0,
+        "grade": 0,
+        "phone_hidden": false,
+        "id_checked": "VALID",
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "98f3e200-eb29-11de-a000-000017b5f4fa"
+      },
+      "departure_date": "12/02/2019 01:00:00",
+      "departure_place": {
+        "city_name": "Paris",
+        "address": "Porte de Vanves, Paris, France",
+        "latitude": 48.827396,
+        "longitude": 2.307701,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Parc-relais La Poterie, Rue Emile Littré, Rennes, France",
+        "latitude": 48.086936,
+        "longitude": -1.643293,
+        "country_code": "FR"
+      },
+      "price": {
+        "value": 22,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "22 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 26.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "26,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 22,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "22 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 4.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "4,50 €"
+      },
+      "seats_left": 3,
+      "seats": 3,
+      "duration": {
+        "value": 13800,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 341,
+        "unity": "km"
+      },
+      "permanent_id": "1421712834-paris-rennes",
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1421712834-paris-rennes"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": false,
+      "freeway": true,
+      "answer_delay": 3,
+      "booking_mode": "manual",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Paris",
+        "Rennes",
+        "Corps-Nuds"
+      ],
+      "departure_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 4601,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 4235,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "PLANNED",
+      "trip_details_id": "Cg4KCjE0MjE3MTI4MzQQARILCAISB3UwOXR1OGIaCwgCEgdnYndjZDln",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1422052523-paris-rennes?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1422052523-paris-rennes/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/f4792710-1c1d-11e8-a000-004bdf5fe0fa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/ssFuIKavGsSu00a_T2me5A?_locale=fr_FR"
+        },
+        "display_name": "Oussama",
+        "gender": "_UE_M",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/PCqVHXftRsCuZcs2rQkuPg/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_MAYBE",
+        "music": "_UE_YES",
+        "encrypted_id": "ssFuIKavGsSu00a_T2me5A",
+        "pets": "_UE_NO",
+        "dialog": "_UE_MAYBE",
+        "age": 26,
+        "rating": 3.7,
+        "rating_count": 3,
+        "grade": 2,
+        "phone_hidden": false,
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "f4792710-1c1d-11e8-a000-004bdf5fe0fa"
+      },
+      "departure_date": "12/02/2019 04:00:00",
+      "departure_place": {
+        "city_name": "Paris",
+        "address": "Porte d'Orléans",
+        "latitude": 48.823521,
+        "longitude": 2.324791,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Rennes",
+        "latitude": 48.08347,
+        "longitude": -1.682726,
+        "country_code": "FR"
+      },
+      "price": {
+        "value": 28,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "28 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 33.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "33,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 28,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "28 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 5.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "5,50 €"
+      },
+      "seats_left": 4,
+      "seats": 4,
+      "duration": {
+        "value": 13200,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 343,
+        "unity": "km"
+      },
+      "permanent_id": "1422052523-paris-rennes",
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1422052523-paris-rennes"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": false,
+      "freeway": true,
+      "answer_delay": 3,
+      "booking_mode": "manual",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Paris",
+        "Rennes",
+        "Saint-Brieuc"
+      ],
+      "departure_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 4192,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 3776,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "PLANNED",
+      "trip_details_id": "Cg4KCjE0MjIwNTI1MjMQARILCAISB3UwOXR1YmgaCwgCEgdnYndjOTlx",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1419822386-combs-la-ville-rennes?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1419822386-combs-la-ville-rennes/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/b5091400-96ef-11e6-a000-002b2aa664fa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/YMe5XB7iqeIQwJv7y94vzA?_locale=fr_FR"
+        },
+        "display_name": "Jérémy",
+        "gender": "_UE_M",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/J1hkzkjKSWOpyHzj65UfVw/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_NO",
+        "music": "_UE_YES",
+        "encrypted_id": "YMe5XB7iqeIQwJv7y94vzA",
+        "pets": "_UE_MAYBE",
+        "dialog": "_UE_MAYBE",
+        "age": 25,
+        "rating": 4.9,
+        "rating_count": 28,
+        "grade": 4,
+        "phone_hidden": false,
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "b5091400-96ef-11e6-a000-002b2aa664fa"
+      },
+      "departure_date": "12/02/2019 04:40:00",
+      "departure_place": {
+        "city_name": "Combs-la-Ville",
+        "address": "Mairie De Combs-la-Ville, Place de l'Hôtel de Ville, Combs-la-Ville, France",
+        "latitude": 48.664907,
+        "longitude": 2.565195,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "La Poterie, Rennes, France",
+        "latitude": 48.092357,
+        "longitude": -1.630868,
+        "country_code": "FR"
+      },
+      "price": {
+        "value": 20,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "20 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 24,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "24,00 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 20,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "20 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 4,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "4,00 €"
+      },
+      "seats_left": 2,
+      "seats": 2,
+      "duration": {
+        "value": 15000,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 351,
+        "unity": "km"
+      },
+      "permanent_id": "1419822386-combs-la-ville-rennes",
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1419822386-combs-la-ville-rennes"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": true,
+      "freeway": true,
+      "answer_delay": 0,
+      "booking_mode": "auto",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Combs-la-Ville",
+        "Rennes",
+        "Auray"
+      ],
+      "departure_passenger_routing": {
+        "proximity": "FAR",
+        "routes": [
+          {
+            "distance_in_meters": 26422,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 4451,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "PLANNED",
+      "trip_details_id": "Cg4KCjE0MTk4MjIzODYQARILCAISB3UwOXVmNzUaCwgCEgdnYndjZGZ1",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1422208224-le-raincy-rennes?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1422208224-le-raincy-rennes/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/090ba100-9d6d-11e3-a000-000185779cfa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/jTKt8X_LW9DX7YvJ4Ub8Vg?_locale=fr_FR"
+        },
+        "display_name": "Gwenaelle",
+        "gender": "_UE_MRS",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/bTMZEE-aRyKkEqDg4MVsFQ/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_MAYBE",
+        "music": "_UE_YES",
+        "encrypted_id": "jTKt8X_LW9DX7YvJ4Ub8Vg",
+        "pets": "_UE_MAYBE",
+        "dialog": "_UE_MAYBE",
+        "age": 40,
+        "rating": 4.2,
+        "rating_count": 18,
+        "grade": 4,
+        "phone_hidden": false,
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "090ba100-9d6d-11e3-a000-000185779cfa"
+      },
+      "departure_date": "12/02/2019 06:30:00",
+      "departure_place": {
+        "city_name": "Le Raincy",
+        "address": "Le Raincy, France",
+        "latitude": 48.897385,
+        "longitude": 2.523112,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Métro Henri Fréville, Rennes",
+        "latitude": 48.087814,
+        "longitude": -1.674342,
+        "country_code": "FR"
+      },
+      "price": {
+        "value": 23,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "23 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 27.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "27,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 23,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "23 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 4.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "4,50 €"
+      },
+      "seats_left": 2,
+      "seats": 2,
+      "duration": {
+        "value": 15000,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 359,
+        "unity": "km"
+      },
+      "permanent_id": "1422208224-le-raincy-rennes",
+      "car": {
+        "id": "1982107",
+        "model": "208",
+        "make": "PEUGEOT",
+        "comfort": "normal",
+        "comfort_nb_star": 2,
+        "category": "CATEGORY_BERLINE"
+      },
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1422208224-le-raincy-rennes"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": true,
+      "freeway": true,
+      "answer_delay": 0,
+      "booking_mode": "auto",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Le Raincy",
+        "Rennes",
+        "Saint-Malo"
+      ],
+      "departure_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 13294,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 3285,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "PLANNED",
+      "trip_details_id": "Cg4KCjE0MjIyMDgyMjQQARILCAISB3UwOXkxbW0aCwgCEgdnYndjOWZo",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1422130888-antony-dinard/corridoring/a582546?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1422130888-antony-dinard-a582546/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/6b1ce580-34f3-11e3-a000-0001264dd4fa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/HRLgL8Cx6n9rH-yOWdUk3A?_locale=fr_FR"
+        },
+        "display_name": "Annie",
+        "gender": "_UE_MRS",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/GnZW0OvyTaicnYiXPtPUyg/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_MAYBE",
+        "music": "_UE_MAYBE",
+        "encrypted_id": "HRLgL8Cx6n9rH-yOWdUk3A",
+        "pets": "_UE_MAYBE",
+        "dialog": "_UE_MAYBE",
+        "age": 62,
+        "rating": 4.7,
+        "rating_count": 18,
+        "grade": 4,
+        "phone_hidden": false,
+        "id_checked": "VALID",
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "6b1ce580-34f3-11e3-a000-0001264dd4fa"
+      },
+      "departure_date": "12/02/2019 07:00:00",
+      "departure_place": {
+        "city_name": "Antony",
+        "address": "Antony RER, Antony, France",
+        "latitude": 48.754516,
+        "longitude": 2.300978,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Saint-Grégoire",
+        "address": "Saint-Grégoire Le Centre",
+        "latitude": 48.1400714,
+        "longitude": -1.6839609,
+        "country_code": "FR",
+        "meeting_point_id": 582546,
+        "corridoring_meeting_point_id": 582546
+      },
+      "arrival_meeting_point": {
+        "id": 582546,
+        "name": "Saint-Grégoire Le Centre",
+        "full_name": "Saint-Grégoire Le Centre, Saint-Grégoire",
+        "city_name": "Saint-Grégoire",
+        "address": "25 Rue de l'Étang au Diable, 35760 Saint-Grégoire, France",
+        "latitude": 48.1400714,
+        "longitude": -1.6839609,
+        "country_code": "FR",
+        "tags": []
+      },
+      "price": {
+        "value": 27,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "27 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 32.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "32,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 27,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "27 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 5.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "5,50 €"
+      },
+      "seats_left": 2,
+      "seats": 2,
+      "duration": {
+        "value": 13200,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 333,
+        "unity": "km"
+      },
+      "permanent_id": "1422130888-antony-dinard",
+      "car": {
+        "id": "21405977",
+        "model": "C3 PICASSO",
+        "make": "CITROEN",
+        "comfort": "normal",
+        "comfort_nb_star": 2,
+        "category": "CATEGORY_VAN"
+      },
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1422130888-antony-dinard-a582546"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": false,
+      "freeway": true,
+      "answer_delay": 3,
+      "booking_mode": "manual",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Antony",
+        "Saint-Grégoire",
+        "Dinard"
+      ],
+      "corridoring_meeting_point_id": "a582546",
+      "corridoring_meeting_point_ids": "a582546",
+      "departure_passenger_routing": {
+        "proximity": "MIDDLE",
+        "routes": [
+          {
+            "distance_in_meters": 11957,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "CLOSE",
+        "routes": [
+          {
+            "distance_in_meters": 2577,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "CORRIDORING_DROPOFF",
+      "trip_details_id": "Cg4KCjE0MjIxMzA4ODgQARILCAISB3UwOXRrNzcaCggBEgY1ODI1NDY=",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1416699119-corbeil-essonnes-rennes?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1416699119-corbeil-essonnes-rennes/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/9fae3a00-9754-11e4-a000-0005132610fa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/TzYxQlGot2D2oKCyKh3iNA?_locale=fr_FR"
+        },
+        "display_name": "Yoann",
+        "gender": "_UE_M",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/DtLst_EGRfyXaP4PI9c2UQ/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_NO",
+        "music": "_UE_MAYBE",
+        "encrypted_id": "TzYxQlGot2D2oKCyKh3iNA",
+        "pets": "_UE_NO",
+        "dialog": "_UE_MAYBE",
+        "age": 31,
+        "rating": 4.5,
+        "rating_count": 35,
+        "grade": 4,
+        "phone_hidden": false,
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "9fae3a00-9754-11e4-a000-0005132610fa"
+      },
+      "departure_date": "12/02/2019 07:40:00",
+      "departure_place": {
+        "city_name": "Corbeil-Essonnes",
+        "address": "Gare de Corbeil Essonnes, Corbeil-Essonnes",
+        "latitude": 48.614151,
+        "longitude": 2.473963,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Roazhon Park, Rennes",
+        "latitude": 48.108169,
+        "longitude": -1.711834,
+        "country_code": "FR"
+      },
+      "price": {
+        "value": 22,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "22 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 26.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "26,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 22,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "22 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 4.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "4,50 €"
+      },
+      "seats_left": 2,
+      "seats": 3,
+      "duration": {
+        "value": 13800,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 350,
+        "unity": "km"
+      },
+      "permanent_id": "1416699119-corbeil-essonnes-rennes",
+      "car": {
+        "id": "19881420",
+        "model": "MEGANE",
+        "make": "RENAULT",
+        "comfort": "confortable",
+        "comfort_nb_star": 3,
+        "category": "CATEGORY_BREAK"
+      },
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1416699119-corbeil-essonnes-rennes"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": true,
+      "freeway": true,
+      "answer_delay": 3,
+      "booking_mode": "manual",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Corbeil-Essonnes",
+        "Rennes",
+        "Pluvigner"
+      ],
+      "departure_passenger_routing": {
+        "proximity": "FAR",
+        "routes": [
+          {
+            "distance_in_meters": 28400,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "CLOSE",
+        "routes": [
+          {
+            "distance_in_meters": 2722,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "PLANNED",
+      "trip_details_id": "Cg4KCjE0MTY2OTkxMTkQARILCAISB3UwOXU4M2MaCwgCEgdnYndjOWpj",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1411398712-versailles-la-trinite-sur-mer/corridoring/a574951?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1411398712-versailles-la-trinite-sur-mer-a574951/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/e56bfe00-ba62-11e6-a000-002e79dd60fa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/w7bb6X34Gvn4qyEn4xGmew?_locale=fr_FR"
+        },
+        "display_name": "Laure",
+        "gender": "_UE_MRS",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/bnyBHGMXSLuMtWm82HwWqQ/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_NO",
+        "music": "_UE_YES",
+        "encrypted_id": "w7bb6X34Gvn4qyEn4xGmew",
+        "pets": "_UE_YES",
+        "dialog": "_UE_MAYBE",
+        "age": 20,
+        "rating": 4.5,
+        "rating_count": 2,
+        "grade": 1,
+        "phone_hidden": false,
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "e56bfe00-ba62-11e6-a000-002e79dd60fa"
+      },
+      "departure_date": "12/02/2019 08:00:00",
+      "departure_place": {
+        "city_name": "Versailles",
+        "address": "Versailles - Rive Droite",
+        "latitude": 48.809668,
+        "longitude": 2.134919,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Roazhon Park",
+        "latitude": 48.1081691,
+        "longitude": -1.7118335,
+        "country_code": "FR",
+        "meeting_point_id": 574951,
+        "corridoring_meeting_point_id": 574951
+      },
+      "arrival_meeting_point": {
+        "id": 574951,
+        "name": "Roazhon Park",
+        "full_name": "Roazhon Park, Rennes",
+        "city_name": "Rennes",
+        "address": "111 Rue de Lorient, 35000 Rennes, France",
+        "latitude": 48.1081691,
+        "longitude": -1.7118335,
+        "country_code": "FR",
+        "tags": []
+      },
+      "price": {
+        "value": 30,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "30 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 36,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "36,00 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 30,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "30 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 6,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "6,00 €"
+      },
+      "seats_left": 1,
+      "seats": 2,
+      "duration": {
+        "value": 13800,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 347,
+        "unity": "km"
+      },
+      "permanent_id": "1411398712-versailles-la-trinite-sur-mer",
+      "car": {
+        "id": "106951939",
+        "model": "XC90",
+        "make": "VOLVO",
+        "comfort": "normal",
+        "comfort_nb_star": 2,
+        "category": "CATEGORY_44"
+      },
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1411398712-versailles-la-trinite-sur-mer-a574951"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": true,
+      "freeway": true,
+      "answer_delay": 3,
+      "booking_mode": "manual",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Versailles",
+        "Rennes",
+        "La Trinité-sur-Mer"
+      ],
+      "corridoring_meeting_point_id": "a574951",
+      "corridoring_meeting_point_ids": "a574951",
+      "departure_passenger_routing": {
+        "proximity": "FAR",
+        "routes": [
+          {
+            "distance_in_meters": 16740,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "CLOSE",
+        "routes": [
+          {
+            "distance_in_meters": 2722,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "CORRIDORING_DROPOFF",
+      "trip_details_id": "Cg4KCjE0MTEzOTg3MTIQARILCAISB3UwOXQ4dGQaCggBEgY1NzQ5NTE=",
+      "vehicle_pictures": []
+    },
+    {
+      "links": {
+        "_self": "https://api.blablacar.fr/api/v2/trips/1422181561-bretigny-sur-orge-lorient/corridoring/a574951?_locale=fr_FR",
+        "_front": "https://www.blablacar.fr/trip/carpooling/1422181561-bretigny-sur-orge-lorient-a574951/?_locale=fr_FR"
+      },
+      "user": {
+        "links": {
+          "_front": "https://www.blablacar.fr/user/show/3d02be80-6913-11e0-a000-00003e8a2cfa?_locale=fr_FR",
+          "_self": "https://api.blablacar.fr/api/v2/users/lAnzuUJOvgGOLo0gWzZcCw?_locale=fr_FR"
+        },
+        "display_name": "Sylvie",
+        "gender": "_UE_MRS",
+        "picture": "https://d2kwny77wxvuie.cloudfront.net/user/_t6vXpHrQI-fM4Ea_PuC7Q/thumbnail_144x144.jpeg",
+        "has_picture": true,
+        "smoking": "_UE_NO",
+        "music": "_UE_YES",
+        "encrypted_id": "lAnzuUJOvgGOLo0gWzZcCw",
+        "pets": "_UE_NO",
+        "dialog": "_UE_YES",
+        "age": 51,
+        "rating": 4.8,
+        "rating_count": 64,
+        "grade": 4,
+        "phone_hidden": false,
+        "id_checked": "VALID",
+        "bbpro": false,
+        "bbpro_segment": "not_pro",
+        "uuid": "3d02be80-6913-11e0-a000-00003e8a2cfa"
+      },
+      "departure_date": "12/02/2019 08:30:11",
+      "departure_place": {
+        "city_name": "Brétigny-sur-Orge",
+        "address": "Gare de Brétigny, Brétigny-sur-Orge",
+        "latitude": 48.606688,
+        "longitude": 2.302327,
+        "country_code": "FR"
+      },
+      "arrival_place": {
+        "city_name": "Rennes",
+        "address": "Roazhon Park",
+        "latitude": 48.1081691,
+        "longitude": -1.7118335,
+        "country_code": "FR",
+        "meeting_point_id": 574951,
+        "corridoring_meeting_point_id": 574951
+      },
+      "arrival_meeting_point": {
+        "id": 574951,
+        "name": "Roazhon Park",
+        "full_name": "Roazhon Park, Rennes",
+        "city_name": "Rennes",
+        "address": "111 Rue de Lorient, 35000 Rennes, France",
+        "latitude": 48.1081691,
+        "longitude": -1.7118335,
+        "country_code": "FR",
+        "tags": []
+      },
+      "price": {
+        "value": 23,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "23 €",
+        "price_color": "BLACK"
+      },
+      "price_with_commission": {
+        "value": 27.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "27,50 €",
+        "price_color": "BLACK"
+      },
+      "price_without_commission": {
+        "value": 23,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "23 €",
+        "price_color": "BLACK"
+      },
+      "commission": {
+        "value": 4.5,
+        "currency": "EUR",
+        "symbol": "€",
+        "string_value": "4,50 €"
+      },
+      "seats_left": 2,
+      "seats": 2,
+      "duration": {
+        "value": 12589,
+        "unity": "s"
+      },
+      "distance": {
+        "value": 335,
+        "unity": "km"
+      },
+      "permanent_id": "1422181561-bretigny-sur-orge-lorient",
+      "car": {
+        "id": "296418",
+        "model": "207",
+        "make": "PEUGEOT",
+        "comfort": "confortable",
+        "comfort_nb_star": 3,
+        "category": "CATEGORY_BERLINE"
+      },
+      "multimodal_id": {
+        "source": "CARPOOLING",
+        "id": "1422181561-bretigny-sur-orge-lorient-a574951"
+      },
+      "viaggio_rosa": false,
+      "is_comfort": true,
+      "freeway": true,
+      "answer_delay": 3,
+      "booking_mode": "manual",
+      "booking_type": "online",
+      "locations_to_display": [
+        "Brétigny-sur-Orge",
+        "Rennes",
+        "Lorient"
+      ],
+      "corridoring_meeting_point_id": "a574951",
+      "corridoring_meeting_point_ids": "a574951",
+      "departure_passenger_routing": {
+        "proximity": "FAR",
+        "routes": [
+          {
+            "distance_in_meters": 28030,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "arrival_passenger_routing": {
+        "proximity": "CLOSE",
+        "routes": [
+          {
+            "distance_in_meters": 2722,
+            "type": "AS_THE_CROW_FLIES"
+          }
+        ]
+      },
+      "corridoring_type": "CORRIDORING_DROPOFF",
+      "trip_details_id": "Cg4KCjE0MjIxODE1NjEQARILCAISB3UwOXNzMnMaCggBEgY1NzQ5NTE=",
+      "vehicle_pictures": []
+    }
+  ],
+  "top_trips": [],
+  "facets": [
+    {
+      "name": "hour",
+      "type": "custom",
+      "items": [
+        {
+          "value": 0,
+          "count": 1,
+          "is_selected": true
+        },
+        {
+          "value": 1,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 2,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 3,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 4,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 5,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 6,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 7,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 8,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 9,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 10,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 11,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 12,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 13,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 14,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 15,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 16,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 17,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 18,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 19,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 20,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 21,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 22,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 23,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 24,
+          "count": 1,
+          "is_selected": true
+        }
+      ]
+    },
+    {
+      "name": "price",
+      "type": "custom",
+      "items": [
+        {
+          "value": 12,
+          "count": 1,
+          "is_selected": true
+        },
+        {
+          "value": 13,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 14,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 15,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 16,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 17,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 18,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 19,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 20,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 21,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 22,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 23,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 24,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 25,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 26,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 27,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 28,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 29,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 30,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 31,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 32,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 33,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 34,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 35,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 36,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 37,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 38,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 39,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 40,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 41,
+          "count": 1,
+          "is_selected": false
+        },
+        {
+          "value": 42,
+          "count": 1,
+          "is_selected": true
+        }
+      ]
+    },
+    {
+      "name": "automatic_approval",
+      "type": "checkbox",
+      "items": [
+        {
+          "value": true,
+          "count": 345,
+          "is_selected": false
+        }
+      ]
+    }
+  ],
+  "distance": 354,
+  "duration": 13800,
+  "recommended_price": 23,
+  "savings": 69,
+  "lowest_price": 24,
+  "lowest_price_object": {
+    "value": 24,
+    "currency": "EUR",
+    "symbol": "€",
+    "string_value": "24 €"
+  },
+  "full_trips_count": 115,
+  "total_trip_count_to_display": 726,
+  "sorting_algorithm": "trip_date"
+}
