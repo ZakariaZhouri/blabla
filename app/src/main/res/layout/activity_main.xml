@@ -12,7 +12,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.2"
-            android:visibility="visible"
+            android:elevation="30dp"
+            android:clickable="true"
+            android:visibility="gone"
             android:background="@color/colorPrimary"/>
 
     <EditText android:id="@+id/departureText"

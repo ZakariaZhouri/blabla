@@ -8,9 +8,8 @@ import com.example.blablacartest.platform.recycler.TripsRecyclerAdapter
 import com.example.blablacartest.presentation.TripsViewModel
 import kotlinx.android.synthetic.main.activity_trips.*
 
-//TODO gestion des erreurs
 //TODO Gestion des loader
-//TODO Blockage de lapplication sur le mode portrait
+
 //TODO Repository
 class TripsActivity : AppCompatActivity() {
 

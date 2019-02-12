@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity(), com.example.blablacartest.presentation
             if (textVerificationAndDisplauyError()) {
                 progress.visibility = View.VISIBLE
                 loaderView.visibility = View.VISIBLE
+                searchButton.visibility = View.GONE
                 getTrips()
             }
         }
