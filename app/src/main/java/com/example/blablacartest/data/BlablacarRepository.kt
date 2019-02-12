@@ -6,18 +6,17 @@ import com.example.blablacartest.data.model.Client
 import com.example.blablacartest.data.model.ClientOutput
 import com.example.blablacartest.data.model.DataModel
 import com.example.blablacartest.domain.Repository
-import retrofit2.*
-import retrofit2.converter.gson.GsonConverterFactory
-import kotlin.collections.LinkedHashMap
 import com.google.gson.GsonBuilder
-import org.json.JSONObject
+import retrofit2.Call
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.create
 
-
+//TODO Changer les URL et les Headers
 class BlablacarRepository(context: Context) : Repository {
     val sharedPreferencesPersistence = SharedPreferencesPersistence(context)
 
     companion object {
-
         const val TOKEN_KEY = "tokenKey"
         const val RESPONSE_FORMAT = "json"
         const val RESPONSE_LOCALE = "fr_FR"
@@ -26,7 +25,7 @@ class BlablacarRepository(context: Context) : Repository {
 
     override fun getClientToken(client: Client): Call<ClientOutput> {
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://edge.blablacar.com")
+            .baseUrl(BlablaApi.BLABLA_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
         val service = retrofit.create<BlablaApi>()
@@ -39,13 +38,10 @@ class BlablacarRepository(context: Context) : Repository {
     }
 
     override fun search(departure: String, arrival: String): Call<DataModel> {
-        val gson = GsonBuilder()
-            .setLenient()
-            .create()
         val headers = buildHeaders()
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://edge.blablacar.com")
-            .addConverterFactory(GsonConverterFactory.create(gson))
+            .baseUrl(BlablaApi.BLABLA_URL)
+            .addConverterFactory(GsonConverterFactory.create())
             .build()
         val service = retrofit.create<BlablaApi>()
 

@@ -8,6 +8,10 @@ import retrofit2.Call
 import retrofit2.http.*
 
 interface BlablaApi {
+    companion object {
+        const val BLABLA_URL = "https://edge.blablacar.com"
+    }
+
     @POST("token")
     fun getClientToken(@Body client: Client): Call<ClientOutput>
 

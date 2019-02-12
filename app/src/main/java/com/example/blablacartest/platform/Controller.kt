@@ -3,5 +3,5 @@ package com.example.blablacartest.platform
 interface Controller {
 
     fun getToken()
-    fun getTrips()
+    fun getTrips(departure : String, arrival : String)
 }
