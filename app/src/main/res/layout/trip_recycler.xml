@@ -1,95 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<android.support.v7.widget.CardView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginBottom="@dimen/margin_top_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout android:layout_width="wrap_content"
+                                                 android:layout_height="wrap_content">
 
-    <ImageView
-            android:id="@+id/driverPicture"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/driver_picture"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+                android:id="@+id/driverPicture"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/driver_picture"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
-            android:id="@+id/driverName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_top_edit_text"
-            android:textSize="@dimen/textSize"
-            app:layout_constraintLeft_toRightOf="@+id/driverPicture"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Lionel"/>
+        <TextView
+                android:id="@+id/driverName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_top_edit_text"
+                android:textSize="@dimen/textSize"
+                app:layout_constraintLeft_toRightOf="@+id/driverPicture"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Lionel"/>
 
-    <TextView
-            android:id="@+id/departureLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/labelSize"
-            android:text="@string/from"
-            app:layout_constraintLeft_toLeftOf="@+id/driverName"
-            app:layout_constraintTop_toBottomOf="@id/driverName"
-    />
-    <TextView
-            android:id="@+id/departure"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/textSize"
-            android:layout_marginLeft="@dimen/margin_top_edit_text"
-            app:layout_constraintLeft_toRightOf="@+id/departureLabel"
-            app:layout_constraintTop_toTopOf="@+id/departureLabel"
-            app:layout_constraintBottom_toBottomOf="@+id/departureLabel"
-            tools:text="Paris"/>
+        <TextView
+                android:id="@+id/departureLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/labelSize"
+                android:text="@string/from"
+                app:layout_constraintLeft_toLeftOf="@+id/driverName"
+                app:layout_constraintTop_toBottomOf="@id/driverName"
+        />
+        <TextView
+                android:id="@+id/departure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_marginLeft="@dimen/margin_top_edit_text"
+                app:layout_constraintLeft_toRightOf="@+id/departureLabel"
+                app:layout_constraintTop_toTopOf="@+id/departureLabel"
+                app:layout_constraintBottom_toBottomOf="@+id/departureLabel"
+                tools:text="Paris"/>
 
-    <TextView
-            android:id="@+id/arrivalLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/to"
-            app:layout_constraintLeft_toLeftOf="@+id/departureLabel"
-            app:layout_constraintTop_toBottomOf="@id/departureLabel"
-            android:textSize="@dimen/textSize"
-    />
-    <TextView
-            android:id="@+id/arrival"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toRightOf="@+id/arrivalLabel"
-            app:layout_constraintTop_toTopOf="@+id/arrivalLabel"
-            app:layout_constraintBottom_toBottomOf="@+id/arrivalLabel"
-            android:layout_marginLeft="@dimen/margin_top_edit_text"
-            android:textSize="@dimen/textSize"
-            tools:text="Rennes"/>
+        <TextView
+                android:id="@+id/arrivalLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to"
+                app:layout_constraintLeft_toLeftOf="@+id/departureLabel"
+                app:layout_constraintTop_toBottomOf="@id/departureLabel"
+                android:textSize="@dimen/textSize"
+        />
+        <TextView
+                android:id="@+id/arrival"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toRightOf="@+id/arrivalLabel"
+                app:layout_constraintTop_toTopOf="@+id/arrivalLabel"
+                app:layout_constraintBottom_toBottomOf="@+id/arrivalLabel"
+                android:layout_marginLeft="@dimen/margin_top_edit_text"
+                android:textSize="@dimen/textSize"
+                tools:text="Rennes"/>
 
-    <TextView
-            android:id="@+id/departureDateLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/labelSize"
-            android:text="@string/departure_date"
-            app:layout_constraintLeft_toLeftOf="@+id/arrivalLabel"
-            app:layout_constraintTop_toBottomOf="@id/arrivalLabel"
-    />
-    <TextView
-            android:id="@+id/departureDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/textSize"
-            app:layout_constraintLeft_toRightOf="@+id/departureDateLabel"
-            app:layout_constraintTop_toTopOf="@+id/departureDateLabel"
-            app:layout_constraintBottom_toBottomOf="@+id/departureDateLabel"
-            app:layout_constraintRight_toRightOf="parent"
-            tools:text="10/10/2010"/>
-    <TextView
-            android:id="@+id/price"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/textSize"
-            app:layout_constraintLeft_toLeftOf="@+id/departureDateLabel"
-            app:layout_constraintTop_toBottomOf="@id/departureDateLabel"
-            tools:text="20euro"/>
-
-</android.support.constraint.ConstraintLayout>
+        <TextView
+                android:id="@+id/departureDateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/labelSize"
+                android:text="@string/departure_date"
+                app:layout_constraintLeft_toLeftOf="@+id/arrivalLabel"
+                app:layout_constraintTop_toBottomOf="@id/arrivalLabel"
+        />
+        <TextView
+                android:id="@+id/departureDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                app:layout_constraintLeft_toRightOf="@+id/departureDateLabel"
+                app:layout_constraintTop_toTopOf="@+id/departureDateLabel"
+                app:layout_constraintBottom_toBottomOf="@+id/departureDateLabel"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:text="10/10/2010"/>
+        <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                app:layout_constraintLeft_toLeftOf="@+id/departureDateLabel"
+                app:layout_constraintTop_toBottomOf="@id/departureDateLabel"
+                tools:text="20euro"/>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

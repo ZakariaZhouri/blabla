@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">BlaBlaCarTest</string>
     <string name="search">Search</string>
-    <string name="departure_date">Departure date</string>
+    <string name="departure_date">Date</string>
     <string name="edit_text_error">Empty text</string>
     <string name="error_text">Server error do you want to try</string>
     <string name="error_yes">YES</string>
