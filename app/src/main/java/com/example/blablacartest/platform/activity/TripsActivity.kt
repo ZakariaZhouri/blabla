@@ -8,9 +8,7 @@ import com.example.blablacartest.platform.recycler.TripsRecyclerAdapter
 import com.example.blablacartest.presentation.TripsViewModel
 import kotlinx.android.synthetic.main.activity_trips.*
 
-//TODO Gestion des loader
 
-//TODO Repository
 class TripsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

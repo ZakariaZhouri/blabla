@@ -8,4 +8,8 @@
     <string name="error_no">NO</string>
     <string name="from">From</string>
     <string name="to">To</string>
+    <string name="euro">€</string>
+    <string name="acceptLanguage">Accept-Language</string>
+    <string name="applicationVerion">Application-Version</string>
+    <string name="authorization">Authorization</string>
 </resources>

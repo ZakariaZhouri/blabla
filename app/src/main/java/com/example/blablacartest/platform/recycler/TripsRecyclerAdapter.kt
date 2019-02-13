@@ -37,7 +37,7 @@ class TripsRecyclerAdapter(val listTripViewModel: List<TripsViewModel>?) :
             itemView.departure.text = tripsViewModel.departure
             itemView.arrival.text = tripsViewModel.arrival
             itemView.departureDate.text = tripsViewModel.departureDate
-            itemView.price.text = tripsViewModel.price
+            itemView.price.text = tripsViewModel.price + itemView.context.getString(R.string.euro)
             tripsViewModel.driverPicture?.let {
                 Glide.with(itemView.context).load(it).into(itemView.driverPicture)
             }

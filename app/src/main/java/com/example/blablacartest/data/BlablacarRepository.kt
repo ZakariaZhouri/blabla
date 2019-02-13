@@ -6,18 +6,21 @@ import com.example.blablacartest.data.model.Client
 import com.example.blablacartest.data.model.ClientOutput
 import com.example.blablacartest.data.model.DataModel
 import com.example.blablacartest.domain.Repository
-import com.google.gson.GsonBuilder
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
+import java.util.*
+import android.content.pm.PackageManager
+import com.example.blablacartest.R
 
-//TODO Changer les URL et les Headers
-class BlablacarRepository(context: Context) : Repository {
+
+class BlablacarRepository(val context: Context) : Repository {
     val sharedPreferencesPersistence = SharedPreferencesPersistence(context)
 
     companion object {
         const val TOKEN_KEY = "tokenKey"
+        const val BEARER = "Bearer "
         const val RESPONSE_FORMAT = "json"
         const val RESPONSE_LOCALE = "fr_FR"
         const val RESPONSE_MONEY_LOCALE = "EUR"
@@ -51,15 +54,21 @@ class BlablacarRepository(context: Context) : Repository {
     fun buildHeaders(): Map<String, String> {
         val token = sharedPreferencesPersistence.getString(TOKEN_KEY)
         val headers = LinkedHashMap<String, String>()
-        headers.put("Accept", "application/json")
-        headers.put("Accept-Language", "fr")
-        headers.put("Application-Client", "Android")
-        headers.put("Application-Version", "5.20.0-debug-33fbb08d3")
-        headers.put("Authorization", "Bearer " + token)
-        headers.put("Connection", "Keep-Alive")
-        headers.put("X-Client", "ANDROID|5.25.0")
-        headers.put("X-Currency", "EUR")
-        headers.put("X-Locale", "fr_FR")
+        getApplicationVersion()?.let { version ->
+            headers.put(context.getString(R.string.applicationVerion), version)
+        }
+        headers.put("Authorization", BEARER + token)
         return headers
+    }
+
+    private fun getApplicationVersion(): String? {
+        var version: String? = null
+        try {
+            val pInfo = context.packageManager.getPackageInfo(context.packageName, 0)
+            version = pInfo.versionName
+        } catch (e: PackageManager.NameNotFoundException) {
+            e.printStackTrace()
+        }
+        return version
     }
 }

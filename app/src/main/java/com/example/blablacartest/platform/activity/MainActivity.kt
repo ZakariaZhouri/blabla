@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity(), com.example.blablacartest.presentation
             if (textVerificationAndDisplauyError()) {
                 progress.visibility = View.VISIBLE
                 loaderView.visibility = View.VISIBLE
-                searchButton.visibility = View.GONE
                 getTrips()
             }
         }
@@ -87,5 +86,6 @@ class MainActivity : AppCompatActivity(), com.example.blablacartest.presentation
                 dialog.cancel();
             }
         builder.create()
+        builder.show()
     }
 }
